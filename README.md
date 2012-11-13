@@ -159,6 +159,8 @@ To check whether the transaction is allowed to proceed:
 * For each day work out the key to check (combine `user_id` and `date_salt`),
   find the amount of substance in question that was purchased. sthis to 
 
+TODO: Need to add the process of retailer accountability.
+
 ## Questions? Comments?
 
 Please feel free to submit issues or contact me about this.
