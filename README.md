@@ -91,7 +91,7 @@ the question of what happens when drugs that are currently illegal pass these
 safety standards, and other drugs that are legal, don't. (TODO: expand and link
 to relevent legislation).
 
-[1]: http://www.thelancet.com/journals/lancet/article/PIIS0140673610614626/abstract "Drug harms in the UK: a multicriteria decision analysis")
+[1]: http://www.thelancet.com/journals/lancet/article/PIIS0140673610614626/abstract "Drug harms in the UK: a multicriteria decision analysis"
 [2]: http://download.thelancet.com/images/journalimages/0140-6736/PIIS0140673610614626.gr2.lrg.jpg "Comparative normalised drug harms"
 [3]: http://www.ncbi.nlm.nih.gov/pubmed/19158127 "Equasy -- an overlooked addiction with implications for the current debate on drug harms. Journal of Psychopharmacology 23 (1): 3–5."
 
