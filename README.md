@@ -63,26 +63,26 @@ which you will be punished for is often arbitary.
 "But some drugs are bad!" I hear you say. Well, comparatively, alcohol is one
 of the [worst drugs for society and the individual][1]
 and the relative standing of various drugs is summarised in the following
-[graph][2]:
+[graph][2] (note that this is already **normalised** for the number of drug users):
 
 ![2](http://download.thelancet.com/images/journalimages/0140-6736/PIIS0140673610614626.gr2.lrg.jpg)
 
 A bit different to what the media, your government or drug enforcement agencies
 would have you believe.
 
-Since this project suggests a rationing approach, an acceptable usage level could be
-defined. Overuse could be based on health evidence, rather than puritanical presumption
-that drugs cause health risks that are greater than other substances or
-recreational activities ([horse riding anyone?][3]).
+Since this project suggests a rationing approach, an acceptable usage level for
+each substance would be defined. Overuse could be based on health evidence,
+rather than puritanical presumption that drugs cause health risks that are
+greater than other substances or recreational activities ([horse riding anyone?][3]).
 
 Recently in New Zealand, legislation has moved to block various "legal highs"
 from being sold, and due the speed at which new psychoactive substances are
 being discovered and produced (indeed, the number of chemical variations that
-will produce a recreational effect is very large) an analogues act was passed.
-I'm not right up with the latest in the legislation, but one interesting
-comment from people that are is that there was a move to put the onus of
-proof, for safety of consumption, on the sellers. However this opens up the
-question of what happens when drugs that are currently illegal pass these
+will produce a recreational effect is very large if not infinite) an analogues
+act was passed. I'm not right up with the latest in the legislation, but one
+interesting comment from people that are is that there was a move to put the
+onus of proof, for safety of consumption, on the sellers. However this opens up
+the question of what happens when drugs that are currently illegal pass these
 safety standards, and other drugs that are legal, don't. (TODO: expand and link
 to relevent legislation).
 
@@ -94,17 +94,21 @@ to relevent legislation).
 
 **Disclosure**: while I'm reasonably technically savvy, I am not a crytogeek, and
 I'm very aware that getting cryptography processes _right_ is hard. Thus
-I present it as a prototype for comment rather than a functional system.
+I present it as a prototype for comment rather than a functional system that's
+ready for production.
 
 There are several questions we need to answer:
 
-* **Identification of individuals**. In the simplest case, everyone uses a driver's
-  license, but not everyone has one of these and an exclusionary system is not
-  ideal. The problem with allowing multiple identification techniques is 
-  resolving these identities to one individual.
+* **Identification of individuals**. In the simplest case, everyone would use
+  a driver's license, but not everyone has one of these and an exclusionary
+  system is not ideal. The problem with allowing multiple identification
+  techniques is resolving these identities to one individual, especially if we
+  wish to avoid explicit profiles of each user.
 * **Allowed frequency** - for a given substance, what is the allowable
-  frequency of use and dosage size. The actual decision is health decision, but
-  the system needs to account for multiple timeframes/quantities.
+  frequency of use and dosage size. The actual values should be backed by
+  available evidence for adverse health and societal impacts, but the system
+  needs to account for multiple timeframes/quantities. Ideally it should also
+  allow these values to be changed as new evidence becomes available.
 * **Blacklisted individuals** - how do we determine whether an individual is
   allowed to be using recreational substances.
 * **Retailer accountability** - If the supply of a substance is rationed, then retailers
