@@ -4,6 +4,11 @@ Rationalised Drugs
 This project is a technical proposal for implementing drug rationing in a world where
 recreational drugs are treated as a health concern and not a criminal charge.
 
+_Note_: This the transcribed version of my late night thoughts while drifting
+asleep. Drug policy is a complex area, so please excuse any lack of foresight
+shown here. I present it as something to prompt discussion, rather than
+a finished product!
+
 ## Rationale
 
 The code herein consists (or will consist) of a system to track drug
